@@ -1,3 +1,4 @@
-src/zopfli/*.h	/usr/include/zopfli/
-libzopfli.a	/usr/lib/
-libzopflipng.a	/usr/lib/
+src/zopfli/*.h		/usr/include/zopfli/
+src/zopflipng/*.h	/usr/include/zopfli/
+libzopfli.a		/usr/lib/
+libzopflipng.a		/usr/lib/

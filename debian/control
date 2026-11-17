@@ -2,8 +2,9 @@ Source: zopfli
 Section: utils
 Priority: optional
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.4.1
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
 Homepage: https://github.com/google/zopfli
 
 Package: zopfli

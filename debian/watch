@@ -1,3 +1,2 @@
-version=3
-https://github.com/google/zopfli/releases \
-.*[^n]/(?:|v|version-|version|release-|r|REL_|rel-|zopfli(?:_|-))(\d[^\s/]*)\.(?:tar\.xz|txz|tar\.bz2|tbz2|tar\.gz|tgz)
+version=4
+https://github.com/google/zopfli/tags .*/zopfli[vV]?[-_]?(\d\S*)@ARCHIVE_EXT@

@@ -1,8 +1,17 @@
-zopfli (1.0.3-1deepin0) unstable; urgency=medium
+zopfli (1.0.3-3) unstable; urgency=medium
 
-  * No source change upload against GCC 12.
+  * Add zopflipng_lib.h to the -dev package (closes: #1093463).
+  * Update Standards-Version to 4.7.0 .
 
- -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 20 Sep 2024 12:59:23 +0800
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 19 Jan 2025 08:43:52 +0100
+
+zopfli (1.0.3-2) unstable; urgency=medium
+
+  * Update watch file.
+  * Update debhelper level to 13 .
+  * Update Standards-Version to 4.6.2 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Wed, 06 Sep 2023 10:28:04 +0000
 
 zopfli (1.0.3-1) unstable; urgency=medium
 

@@ -13,6 +13,6 @@ override_dh_auto_build:
 	dh_auto_build -- libzopflipng
 
 %:
-	dh  $@ --fail-missing
+	dh  $@
 
 .PHONY: override_dh_auto_configure override_dh_auto_build
